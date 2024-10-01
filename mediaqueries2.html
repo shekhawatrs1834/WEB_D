@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /* *{
+        box-sizing: border-box;
+    } */
+        .container{
+            border: 2px solid black;
+            height: 220px;
+            width: 440px;
+            margin: 2px;
+            padding: 2px;
+            background-color: beige;
+            display: flex;
+            flex-direction: row;
+        }
+        #boxleft{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            margin: 2px;
+            padding: 2px;
+            background-color: yellowgreen;
+            display: flex;
+            flex-direction: column;
+        }
+        #boxright{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            margin: 2px;
+            padding: 2px;
+            background-color: lavenderblush;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        p{
+            border: 1px solid black;
+        }
+        @media (max-width:650px) {
+            .container{
+                display: flex;
+                flex-direction: column;
+            } 
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="boxleft">
+            <p>Click here</p>
+            <p>Text</p>
+        </div>
+        <div id="boxright">
+            <img src="/assets/images/1.png">
+        </div>
+    </div>
+</body>
+</html>

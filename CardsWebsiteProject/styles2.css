@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: aquamarine; */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    /* padding: 15px 10px; */
+    height: 400px;
+    width: 300px;
+    /* background-color: aqua; */
+    /* background-color: #383882cb; */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    gap: 15px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px ;
+    text-align: center;
+}
+/* .box h2{
+    text-align: center;
+    font-size: 1.2rem;
+}*/
+.box p{
+    text-align: center;
+    font-size: 0.9rem;
+} 
+.box img{
+    border-top-left-radius:20px; 
+    border-top-right-radius:20px; 
+    height: 30%;
+    width: 100%;
+}
+.amountbox{
+    padding: 8px;
+    height: 10%;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #b9cde1;
+    
+}
+.iconbox{
+    height: 100%;
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+.iconbox img{
+   height: 100%;
+    width: 25%;
+   
+}
+.contentbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contentbox p{
+    font-size: 0.8rem;
+    text-align: left;
+}
+.rightbox a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-right: 5px;
+
+}
+#paymentbutton{
+    height: 9%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #02172be5;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.cancelbox p{
+    color: rgb(74, 70, 70);
+    font-weight: bold;
+    font-size: 1rem;
+}
